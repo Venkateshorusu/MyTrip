@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyTrip Adventures</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+
+<body>
+    <!-- TODO: MODULE_ADVENTURES_GRID -->
+    <!-- 1. Copy navigation bar HTML from Landing page document -->
+    <nav>
+        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <div class="container-fluid d-flex">
+                <a class="navbar-brand" href="../../index.html">MyTrip</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../../index.html" target="_blank">Home</a>
+                        <a class="nav-link" href="#">Explore</a>
+                    </div>
+                </div>
+        </nav>
+    </nav>
+
+    <div class="container">
+        <hedaer class="adventure-grid-header">
+            <h2>Explore all adventures</h2>
+            <p class="adventure-paragraph mb-0"></p>Here's a list of adventures that you can explore in city</p>
+        </hedaer>
+        <div class="content row py-0">
+            <!-- TODO: MODULE_ADVENTURES_GRID -->
+            <!-- 1. Create the grid of adventures by adding child elements as required. -->
+            <div class="tile-2 col-6 col-lg-3 mt-4">
+                <a href="./resort/index.html" target="_blank">
+                    <div class="tile-4">
+                        <img src="../../assets/adventures/resort.jpg" alt="Resort">
+                        <div class="tile-3 text-center pt-3 px-2">
+                            <h5>Resort</h5>
+                            <p><b>₹ 1200</b></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="tile-2 col-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile-4">
+                        <img src="../../assets/adventures/tower.jpg" alt="Tower">
+                        <div class="tile-3 text-center pt-3 px-2">
+                            <h5>Tower</h5>
+                            <p><b>₹ 1800</b></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="tile-2 col-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile-4">
+                        <img src="../../assets/adventures/church.jpg" alt="Skiing">
+                        <div class="tile-3 text-center pt-3 px-2">
+                            <h5>Skiing</h5>
+                            <p><b>₹ 1900</b></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="tile-2 col-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile-4">
+                        <img src="../../assets/adventures/university.jpg" alt="University">
+                        <div class="tile-3 text-center pt-3 px-2">
+                            <h5>University</h5>
+                            <p><b>₹ 800</b></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="tile-2 col-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile-4">
+                        <img src="../../assets/adventures/market.jpg" alt="Market">
+                        <div class="tile-3 text-center pt-3 px-2">
+                            <h5>Market</h5>
+                            <p><b>₹ 600</b></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="tile-2 col-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile-4">
+                        <img src="../../assets/adventures/mount.jpg" alt="Monument">
+                        <div class="tile-3 text-center pt-3 px-2">
+                            <h5>Monument</h5>
+                            <p><b>₹ 1200</b></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="tile-2 col-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile-4">
+                        <img src="../../assets/adventures/canopy.jpg" alt="Canopy">
+                        <div class="tile-3 text-center pt-3 px-2">
+                            <h5>Canopy</h5>
+                            <p><b>₹ 1800</b></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="tile-2 col-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile-4">
+                        <img src="../../assets/adventures/beachside.jpg" alt="Beach Getaway">
+                        <div class="tile-3 text-center pt-3 px-2">
+                            <h5>Beach Getaway</h5>
+                            <p><b>₹ 2200</b></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">© MyTrip 2020</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
