@@ -1,23 +1,25 @@
 # MyTrip Project 
 
 
-MyTrip is a travel website aimed at travelers looking for a multitude of adventures in different cities. 
+◈ MyTrip is a travel website aimed at travelers looking for a multitude of adventures in different cities. 
 
-Created 3 different web pages from Wireframe layout using HTML and CSS
-Utilized Bootstrap extensively for responsive design
-Deployed the website to Netlify/Vercel
+◈ Created 3 different web pages from Wireframe layout using HTML and CSS
+   Utilized Bootstrap extensively for responsive design Deployed the website to Netlify/Vercel
 
-Tools Used:
-Bootstrap Display,
-CSS Positioning,
-Bootstrap Responsive Images,
-Bootstrap Flex,
-Bootstrap Spacing,
-HTML,
-CSS, 
-CSS Flexbox,
-Responsive Design,
-VS Code Live Server.
+ 
+
+   
+
+◈Skills Covered: <br>
+  <pre>  ▪Bootstrap Display <br>
+  ▪Bootstrap Responsive Images<br>
+  ▪Bootstrap Flex<br>
+  ▪Bootstrap Spacing<br>
+  ▪HTML<br>
+  ▪CSS Positioning<br>
+  ▪CSS Flexbox<br>
+  ▪Responsive Design<br>
+  ▪VS Code Live Server<br></pre>
 
 Deploy them on a server for the world to see.
 
